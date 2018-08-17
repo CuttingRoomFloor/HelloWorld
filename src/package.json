@@ -1,0 +1,10 @@
+{
+  "name": "HelloWorld",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello World",
+  "author": "me",
+  "dependencies": {
+    "express": "4.16.0"
+  }
+}
