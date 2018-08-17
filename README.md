@@ -9,13 +9,13 @@ Runs two Node.js web servers behind [HAProxy](https://github.com/haproxy/haproxy
 ```
 $ git clone https://github.com/CuttingRoomFloor/HelloWorld
 $ cd HelloWorld
-$ docker compose up -d
+$ docker-compose up -d
 ```
 The web application can be accessed on [http://localhost](http://localhost) using a web browser or from the command line using [curl](https://github.com/curl/curl) or [httpie](https://github.com/jakubroztocil/httpie) for example.
 
 To stop use:
 ```
-$ docker compose down
+$ docker-compose down
 ```
 
 ### Notes:
