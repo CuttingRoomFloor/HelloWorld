@@ -19,6 +19,6 @@ $ docker-compose down
 ```
 
 ### Notes:
-- To reduce the memory footprint [Alpine Linux](https://alpinelinux.org/) Alpine Linux was used. Static linked binaries are still preferable for containers for obvious reasons.
+- To reduce the memory footprint [Alpine Linux](https://alpinelinux.org/) was used. Static linked binaries are still preferable for containers for obvious reasons.
 - [HAProxy](https://github.com/haproxy/haproxy) stats are exposed on port 70 (page is unprotected to keep the example simple)
 
